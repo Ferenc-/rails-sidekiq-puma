@@ -1,0 +1,2 @@
+web: puma --port 8080
+worker: bundle exec sidekiq -C config/sidekiq.yml
