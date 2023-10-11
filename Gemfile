@@ -30,3 +30,4 @@ end
 
 gem 'redis', "4.1.0"
 gem 'sidekiq', "5.2.7"
+gem 'instana'
