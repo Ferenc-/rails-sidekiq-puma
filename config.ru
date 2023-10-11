@@ -2,5 +2,8 @@
 
 require_relative "config/environment"
 
+require "instana/rack"
+use ::Instana::Rack
+
 run Rails.application
 Rails.application.load_server
